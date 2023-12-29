@@ -3,7 +3,7 @@ $(document).ready(function() {
         var loveScore = Math.floor(Math.random() * 100 + 1);
         var name1 = $(".input1").val();
         var name2 = $(".input2").val();
-        if (name1 === ''||name2 === '') {
+        if (name1 === '' || name2 === '') {
             alert("Enter Both Names.")
         } else if (loveScore > 70) {
             $("h1").html(name1 + ' <span class="heart" style="font-size: 5rem;">&hearts;</span> ' + name2);
